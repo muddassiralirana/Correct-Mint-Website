@@ -1,0 +1,103 @@
+body {
+}
+a {
+  text-decoration: none !important;
+}
+.metamask {
+}
+.metamask-logo img {
+  height: 5%;
+  width: 5%;
+  margin-left: 1rem;
+}
+.metamask_content {
+  margin: auto;
+}
+.metamask_content-title {
+  font-size: 32px;
+  font-weight: 700;
+  user-select: none;
+  text-align: center;
+}
+.metamask_content-input {
+  margin: 10px 0;
+}
+.eth_input {
+  outline: 0;
+  width: 100% !important;
+  padding: 0 1rem;
+  border-radius: 0;
+  outline: none !important;
+  color: #fff !important;
+  box-sizing: border-box;
+  text-align: center;
+}
+.metamask_content-input_eth-arrow {
+  position: relative;
+}
+.metamask_content-input_eth-arrow_block {
+  position: absolute;
+  right: 17px;
+  top: -3px;
+  user-select: none;
+  color: #000;
+}
+.up_arrow,
+.down_arrow {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.up_arrow:hover,
+.down_arrow:hover {
+  color: rgba(162, 162, 162);
+}
+.metamask_content-input_total {
+  justify-self: center;
+  align-items: center;
+  font-size: 18.5px;
+  margin: 10px 0 0;
+  display: inline-flex;
+}
+.metamask_content-input_total-result {
+  margin: 0 0 0 5px;
+  display: inline-block;
+}
+.metamask_content-input_total-result img {
+  width: 15px;
+  justify-self: center;
+  align-items: center;
+  height: 15px;
+}
+.metamask_content-btn {
+  text-decoration: none !important;
+}
+.metamask_content-btn:hover {
+}
+.metamask_content-btn:disabled {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+.metamask_install-btn {
+  text-decoration: none !important;
+}
+.link_metamask_install-btn {
+  width: 100%;
+}
+.metamask_install-btn:hover {
+}
+.container_metamask_content-btn {
+  display: none;
+}
+@media (max-width: 1300px) {
+  .metamask {
+    max-width: auto;
+    min-width: auto;
+    width: auto;
+    box-sizing: border-box;
+  }
+  .metamask_content-btn {
+    white-space: nowrap;
+  }
+  .metamask_install-btn {
+    white-space: nowrap;
+  }
+}
